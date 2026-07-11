@@ -102,7 +102,7 @@ Because catalysis in RNR is deeply coupled to conformational change, the C-termi
 <p align="center">
 <i><b>Figure 2.</b> Per-residue RMSF profile of the NrdB ensemble. Peaks correspond to flexible regions, while low RMSF values indicate structurally stable segments within the protein.</i>
 </p>
-> 🖼️ ## NrdB Structural Visualization
+
 
 <p align="center">
   <img src="Figures/nrdb_structure.png" alt="NrdB Structural Visualization" width="700">
