@@ -86,7 +86,15 @@ Because catalysis in RNR is deeply coupled to conformational change, the C-termi
 
 > 🖼️ **[Insert Figure: NrdB backbone RMSD across the ensemble]**
 > 🖼️ **[Insert Figure: NrdB per-residue RMSF profile]**
-> 🖼️ **[Insert Figure: NrdB structural visualisation — hub residues, flexibility hotspots, and metal-binding core mapped onto 3EE4]**
+> 🖼️ ## NrdB Structural Visualization
+
+<p align="center">
+  <img src="figures/nrdb_structure.png" alt="NrdB Structural Visualization" width="700">
+</p>
+
+<p align="center">
+<i>Figure 3. Structural visualization of NrdB (PDB: 3EE4) showing communication hub residues, flexibility hotspots, and the metal-binding core.</i>
+</p>
 > 🖼️ **[Insert Figure: NrdB DCCM heatmap]**
 > 🖼️ **[Insert Figure: NrdB BioEmu contact probability map & contact-difference map vs. crystal structure]**
 
