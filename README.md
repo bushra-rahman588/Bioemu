@@ -89,7 +89,7 @@ Because catalysis in RNR is deeply coupled to conformational change, the C-termi
 > 🖼️ ## NrdB Structural Visualization
 
 <p align="center">
-  <img src="figures/nrdb_structure.png" alt="NrdB Structural Visualization" width="700">
+  <img src="Figures/nrdb_structure.png" alt="NrdB Structural Visualization" width="700">
 </p>
 
 <p align="center">
