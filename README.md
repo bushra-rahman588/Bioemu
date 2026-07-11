@@ -84,8 +84,24 @@ Because catalysis in RNR is deeply coupled to conformational change, the C-termi
 - Communication hubs concentrated in **residues 103–151**, overlapping with the flexible hinge regions.
 - Contact-map validation: **1,970 contacts preserved**, 822 lost, 73 gained relative to the crystal structure, confirming native topology was maintained.
 
-> 🖼️ **[Insert Figure: NrdB backbone RMSD across the ensemble]**
-> 🖼️ **[Insert Figure: NrdB per-residue RMSF profile]**
+## Backbone RMSD Analysis
+
+<p align="center">
+  <img src="Figures/nrdb_rmsd.png" alt="NrdB RMSD" width="750">
+</p>
+
+<p align="center">
+<i><b>Figure 1.</b> Backbone RMSD of the BioEmu-generated NrdB ensemble relative to the medoid structure, illustrating the overall structural stability and conformational variation sampled across the ensemble.</i>
+</p>
+## Residue Flexibility (RMSF)
+
+<p align="center">
+  <img src="Figures/nrdb_rmsf.png" alt="NrdB RMSF" width="750">
+</p>
+
+<p align="center">
+<i><b>Figure 2.</b> Per-residue RMSF profile of the NrdB ensemble. Peaks correspond to flexible regions, while low RMSF values indicate structurally stable segments within the protein.</i>
+</p>
 > 🖼️ ## NrdB Structural Visualization
 
 <p align="center">
@@ -95,8 +111,24 @@ Because catalysis in RNR is deeply coupled to conformational change, the C-termi
 <p align="center">
 <i>Figure 3. Structural visualization of NrdB (PDB: 3EE4) showing communication hub residues, flexibility hotspots, and the metal-binding core.</i>
 </p>
-> 🖼️ **[Insert Figure: NrdB DCCM heatmap]**
-> 🖼️ **[Insert Figure: NrdB BioEmu contact probability map & contact-difference map vs. crystal structure]**
+## Dynamical Cross-Correlation Matrix (DCCM)
+
+<p align="center">
+  <img src="Figures/nrdb_dccm.png" alt="NrdB DCCM" width="750">
+</p>
+
+<p align="center">
+<i><b>Figure 3.</b> Dynamical cross-correlation matrix of the NrdB ensemble. Positive correlations indicate concerted residue motions, whereas negative correlations represent anti-correlated movements, revealing long-range dynamic communication within the protein.</i>
+</p>
+## Contact Map Validation
+
+<p align="center">
+  <img src="Figures/nrdb_contact_map.png" alt="NrdB Contact Map" width="750">
+</p>
+
+<p align="center">
+<i><b>Figure 5.</b> BioEmu contact probability map and contact-difference map compared with the experimental crystal structure, demonstrating preservation of native residue contacts while sampling biologically relevant conformational states.</i>
+</p>
 
 ---
 
