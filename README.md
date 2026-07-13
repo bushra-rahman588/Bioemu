@@ -134,14 +134,31 @@ Because catalysis in RNR is deeply coupled to conformational change, the C-termi
 
 ### 2. NrdI — Class Ib Flavoprotein Redox Mediator (PDB: 8J4V)
 
-- Mean ensemble RMSD: **~4.98 Å** — higher global variability than NrdB, consistent with NrdI's more dynamic redox-mediator role, but this was driven almost entirely by disordered termini rather than the FMN-binding core.
+- Mean ensemble RMSD: **~4.98 Å** - higher global variability than NrdB, consistent with NrdI's more dynamic redox-mediator role, but this was driven almost entirely by disordered termini rather than the FMN-binding core.
 - Dominant internal flexibility hotspot: the **50s-loop (residues 51–61)**, peaking at **THR55**.
 - FMN-contact residues (THR48, TYR49, GLY50, GLY51) were comparatively rigid, forming a stable cofactor-positioning scaffold.
 - Strongest correlated motion: residues **43–82** (r = 0.958); strongest anti-correlation: residues **33–113** (r = −0.59).
 - Top communication hubs: **PHE9** (highest overall), **PRO47** and **THR55** (core junction/loop bridge), **VAL68**, **ARG114**.
 
-> 🖼️ **[Insert Figure: NrdI RMSD across the ensemble]**
-> 🖼️ **[Insert Figure: NrdI per-residue RMSF profile]**
+> <p align="center">
+  <img src="Figures/nrdI_rmsd.png" alt="NrdB RMSD" width="750">
+</p>
+
+<p align="center">
+<i><b>Figure 1.</b> Backbone RMSD of the BioEmu-generated NrdI ensemble relative to the medoid structure, illustrating the overall structural stability and conformational variation sampled across the ensemble.</i>
+</p>
+
+## Residue Flexibility (RMSF)
+
+<p align="center">
+  <img src="Figures/nrdI_rmsf.png" alt="NrdB RMSF" width="750">
+</p>
+
+<p align="center">
+<i><b>Figure 2.</b> Per-residue RMSF profile of the NrdB ensemble. Peaks correspond to flexible regions, while low RMSF values indicate structurally stable segments within the protein.</i>
+</p>
+
+
 > 🖼️ **[Insert Figure: NrdI structural visualisation showing the bipartite rigid-scaffold / mobile-loop organisation]**
 > 🖼️ **[Insert Figure: NrdI DCCM heatmap and network analysis]**
 
