@@ -140,12 +140,12 @@ Because catalysis in RNR is deeply coupled to conformational change, the C-termi
 - Strongest correlated motion: residues **43–82** (r = 0.958); strongest anti-correlation: residues **33–113** (r = −0.59).
 - Top communication hubs: **PHE9** (highest overall), **PRO47** and **THR55** (core junction/loop bridge), **VAL68**, **ARG114**.
 
-> <p align="center">
+<p align="center">
   <img src="Figures/nrdI_rmsd.png" alt="NrdB RMSD" width="750">
 </p>
 
 <p align="center">
-<i><b>Figure 1.</b> Backbone RMSD of the BioEmu-generated NrdI ensemble relative to the medoid structure, illustrating the overall structural stability and conformational variation sampled across the ensemble.</i>
+<i><b>Figure 6.</b> Backbone RMSD of the BioEmu-generated NrdI ensemble relative to the medoid structure, illustrating the overall structural stability and conformational variation sampled across the ensemble.</i>
 </p>
 
 ## Residue Flexibility (RMSF)
@@ -155,33 +155,70 @@ Because catalysis in RNR is deeply coupled to conformational change, the C-termi
 </p>
 
 <p align="center">
-<i><b>Figure 2.</b> Per-residue RMSF profile of the NrdB ensemble. Peaks correspond to flexible regions, while low RMSF values indicate structurally stable segments within the protein.</i>
+<i><b>Figure 7.</b> Per-residue RMSF profile of the NrdI ensemble. Peaks correspond to flexible regions, while low RMSF values indicate structurally stable segments within the protein.</i>
 </p>
 
 
-> 🖼️ **[Insert Figure: NrdI structural visualisation showing the bipartite rigid-scaffold / mobile-loop organisation]**
-> 🖼️ **[Insert Figure: NrdI DCCM heatmap and network analysis]**
+<p align="center">
+  <img src="Figures/NrdI_Visualization.png" alt="NrdB Structural Visualization" width="700">
+</p>
+
+<p align="center">
+<i>Figure 8. Structural visualization of NrdI (PDB: 8J4V) showing communication hub residues, flexibility hotspots, and the metal-binding core.</i>
+</p>
+
+## Dynamical Cross-Correlation Matrix (DCCM)
+
+<p align="center">
+  <img src="Figures/nrdi_dccm_n.png" alt="NrdB DCCM" width="750">
+</p>
+
+<p align="center">
+<i><b>Figure 9.</b> Dynamical cross-correlation matrix of the NrdI ensemble. Positive correlations indicate concerted residue motions, whereas negative correlations represent anti-correlated movements, revealing long-range dynamic communication within the protein.</i>
+</p>
 
 ---
 
 ### 3. NrdF2:NrdI Complex — Class Ib Catalytic Assembly (PDB: 8J4X)
 
 **NrdF2 subunit:**
-- Core (post-terminal-exclusion) flexibility hotspots: **residues 31–35**, **88–98**, and **210–218**, all in the moderate 4.0–4.2 Å range — a much narrower conformational envelope than NrdI's loop motion, consistent with NrdF2's need to preserve precise di-manganese coordination geometry.
-- Two principal communication hub clusters: **residues 208–214** (peak at residue 210, hub score 0.461) and **residues 88–98** — both positioned near, but distinct from, the Mn-coordinating ligands (Glu103, His106, His200, Glu197), suggesting a second-shell allosteric relay.
+- Core (post-terminal-exclusion) flexibility hotspots: **residues 31–35**, **88–98**, and **210–218**, all in the moderate 4.0–4.2 Å range, a much narrower conformational envelope than NrdI's loop motion, consistent with NrdF2's need to preserve precise di-manganese coordination geometry.
+- Two principal communication hub clusters: **residues 208–214** (peak at residue 210, hub score 0.461) and **residues 88–98**, both positioned near, but distinct from, the Mn-coordinating ligands (Glu103, His106, His200, Glu197), suggesting a second-shell allosteric relay.
 - Strongest correlated motion: residues **88–207** (r = 0.970); strongest anti-correlations: **55–216** (r = −0.796) and **125–272** (r = −0.791).
 
 **NrdI subunit (within the complex):**
-- The **50s-loop (residues 48–58)** again emerged as the dominant flexibility hotspot (peak at GLY51, GLY50) — independently reproducing the finding from the isolated 8J4V structure.
-- Top communication hub: **residue 54** (betweenness centrality 0.1468), followed by residues 75, 95, 92, and 31 — residue 95 sits proximal to the interfacial **Glu97–Arg30** gating contact with NrdF2.
+- The **50s-loop (residues 48–58)** again emerged as the dominant flexibility hotspot (peak at GLY51, GLY50), independently reproducing the finding from the isolated 8J4V structure.
+- Top communication hub: **residue 54** (betweenness centrality 0.1468), followed by residues 75, 95, 92, and 31, residue 95 sits proximal to the interfacial **Glu97–Arg30** gating contact with NrdF2.
 
-> 🖼️ **[Insert Figure: NrdF2 RMSD across the ensemble]**
-> 🖼️ **[Insert Figure: NrdF2 per-residue RMSF profile]**
-> 🖼️ **[Insert Figure: NrdF2 DCCM heatmap and network hub clusters]**
-> 🖼️ **[Insert Figure: NrdI (within complex) RMSD across the ensemble]**
-> 🖼️ **[Insert Figure: NrdI (within complex) per-residue RMSF profile]**
-> 🖼️ **[Insert Figure: NrdI (within complex) DCCM heatmap and network analysis]**
-> 🖼️ **[Insert Figure: Full NrdF2:NrdI complex structural overview with communication hubs, 50s-loop, and Glu97/Arg30 interfacial gating residues mapped]**
+
+<p align="center">
+  <img src="Figures/NrdF2_NrdI_rmsd.png" alt="NrdB RMSD" width="750">
+</p>
+
+<p align="center">
+<i><b>Figure 10.</b> Backbone RMSD of the BioEmu-generated Nrdf2-NrdI complex ensemble relative to the medoid structure, illustrating the overall structural stability and conformational variation sampled across the ensemble.</i>
+</p>
+
+## Residue Flexibility (RMSF)
+
+<p align="center">
+  <img src="Figures/NrdF2_NrdI_rmsf.png" alt="NrdB RMSF" width="750">
+</p>
+
+<p align="center">
+<i><b>Figure 11.</b> Per-residue RMSF profile of the Nrdf2-NrdI ensemble. Peaks correspond to flexible regions, while low RMSF values indicate structurally stable segments within the protein.</i>
+</p>
+
+
+<p align="center">
+  <img src="Figures/NrdF2_NrdI_Complex_visual.png" alt="NrdB Structural Visualization" width="700">
+</p>
+
+<p align="center">
+<i>Figure 12. Structural visualization of Nrdf2-NrdI complex showing communication hub residues, flexibility hotspots, and the metal-binding core.</i>
+</p>
+
+
 
 ---
 
@@ -189,7 +226,7 @@ Because catalysis in RNR is deeply coupled to conformational change, the C-termi
 
 - **BioEmu captures functionally relevant landscapes.** Across all three systems, ensembles reproduced a consistent "rigid core + flexible module" organisation that matches known enzymatic requirements, precise active-site geometry alongside the conformational give needed for catalysis, without being explicitly trained to do so for these specific proteins.
 - **The 50s-loop is a conserved, intrinsic dynamic switch.** Its independent emergence as the top flexibility hotspot in two different NrdI structures (86% sequence identity, isolated vs. complexed) argues that this mobility is a sequence-encoded property of the protein, not a crystallographic or complex-specific artefact, supporting a **conformational selection** model for redox-coupled oxygen-tunnel gating.
-- **PRO47 + residue 54 form a mechanistic "hinge-and-amplifier" unit** — PRO47's fixed backbone dihedral anchors the loop-scaffold junction, while residue 54 (inside the loop) distributes motion into the wider network, a testable hypothesis for future mutagenesis studies.
+- **PRO47 + residue 54 form a mechanistic "hinge-and-amplifier" unit**: PRO47's fixed backbone dihedral anchors the loop-scaffold junction, while residue 54 (inside the loop) distributes motion into the wider network, a testable hypothesis for future mutagenesis studies.
 - **NrdF2 and NrdI show a clear division of labour**: NrdI is the conformationally adaptive redox sensor/gate; NrdF2 is the structurally persistent scaffold for radical chemistry, mirroring the biologically proposed roles of these two subunits.
 
 ---
@@ -199,9 +236,9 @@ Because catalysis in RNR is deeply coupled to conformational change, the C-termi
 <!-- Edit this to match your actual folder layout -->
 ```
 .
-├── data/                # Input structures / raw BioEmu ensembles
-├── scripts/              # Analysis pipeline (RMSD, RMSF, DCCM, network analysis)
-├── results/               # Output figures, tables, and processed ensembles
+├── data/                # Input structures / raw BioEmu ensembles (Currently not public))
+├── scripts/              # Analysis pipeline (RMSD, RMSF, DCCM, network analysis) (Currently not public)
+├── Figures/               # Output figures, tables, and processed ensembles
 ├── docs/
 │   └── thesis.pdf         # Full thesis document
 └── README.md
