@@ -239,8 +239,7 @@ Because catalysis in RNR is deeply coupled to conformational change, the C-termi
 ├── data/                # Input structures / raw BioEmu ensembles (Currently not public))
 ├── scripts/              # Analysis pipeline (RMSD, RMSF, DCCM, network analysis) (Currently not public)
 ├── Figures/               # Output figures, tables, and processed ensembles
-├── docs/
-│   └── thesis.pdf         # Full thesis document
+├── Bushra_thesis.pdf 
 └── README.md
 ```
 
